@@ -1,8 +1,11 @@
 aid: o1labs
 name: O1labs
-description: O1labs is a company surfaced as a portfolio company of kindred-ventures, polychain and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: o1Labs is a blockchain and cryptography company catalyzing a new generation of applications
+  powered by zero-knowledge cryptography. It builds Mina Protocol — the world's lightest blockchain (~22KB
+  constant chain size), secured by recursive zk-SNARKs — and o1js, an open-source TypeScript framework for
+  writing zero-knowledge smart contracts (zkApps) without deep cryptography expertise. o1Labs also maintains
+  the Kimchi proof system, the Pickles recursive SNARK, the zkApp CLI, and a family of Mina node, archive,
+  and Rosetta SDKs across TypeScript, Go, Python, and Rust.
 url: https://raw.githubusercontent.com/api-evangelist/o1labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +14,32 @@ x-backed-by:
 - polychain
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/o1-labs.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Blockchain
+- Cryptography
+- Zero-Knowledge
+- zk-SNARK
+- Web3
+- Smart Contracts
+- Developer Tools
+- SDK
+- Mina Protocol
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,36 @@ maintainers:
 common:
 - type: Website
   url: https://o1labs.org/
+- type: Documentation
+  url: https://docs.minaprotocol.com/
+- type: DeveloperPortal
+  url: https://docs.minaprotocol.com/zkapps
+- type: Blog
+  url: https://o1labs.org/blog
+- type: GitHubOrganization
+  url: https://github.com/o1-labs
+- type: SourceCode
+  url: https://github.com/o1-labs/o1js
+- type: Packages
+  url: packages/o1labs-packages.yml
+- type: SDKs
+  url: packages/o1labs-packages.yml
+- type: CLI
+  url: cli/o1labs-cli.yml
+- type: ChangeLog
+  url: changelog/o1labs-changelog.yml
+- type: LLMsTxt
+  url: llms/o1labs-llms.txt
+- type: Sandbox
+  url: sandbox/o1labs-sandbox.yml
+- type: Lifecycle
+  url: lifecycle/o1labs-lifecycle.yml
+- type: DomainSecurity
+  url: security/o1labs-domain-security.yml
+- type: WellKnown
+  url: well-known/o1labs-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

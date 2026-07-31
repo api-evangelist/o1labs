@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of provider hosts
+company: o1labs
+summary: No .well-known discovery documents were published on any probed host (all 404). Recorded for completeness.
+probes:
+- host: https://www.o1labs.org
+  results:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.minaprotocol.com
+  results:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+files: []

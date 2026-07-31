@@ -1,0 +1,80 @@
+generated: '2026-07-20'
+method: searched
+source: npm registry (registry.npmjs.org) + github.com/o1-labs org
+company: o1labs
+packages:
+- name: o1js
+  ecosystem: npm
+  registry_url: https://www.npmjs.com/package/o1js
+  repository: https://github.com/o1-labs/o1js
+  version: 2.15.0
+  license: Apache-2.0
+  official: true
+  kind: sdk
+  language: TypeScript
+  description: TypeScript framework for zk-SNARKs and zkApps — write zero-knowledge smart contracts for Mina Protocol.
+  install: npm install o1js
+- name: zkapp-cli
+  ecosystem: npm
+  registry_url: https://www.npmjs.com/package/zkapp-cli
+  repository: https://github.com/o1-labs/zkapp-cli
+  version: 0.23.0
+  license: Apache-2.0
+  official: true
+  kind: cli
+  language: JavaScript
+  description: CLI to create zkApps (zero-knowledge apps) for Mina Protocol; exposes the `zk` / `zkapp` binaries.
+  install: npm install -g zkapp-cli
+- name: mina-signer
+  ecosystem: npm
+  registry_url: https://www.npmjs.com/package/mina-signer
+  version: 4.1.0
+  official: true
+  kind: sdk
+  language: TypeScript
+  description: Node API for signing transactions on various networks for Mina Protocol.
+  install: npm install mina-signer
+# First-party SDKs published as source in the o1-labs GitHub org (not on public package registries at probe time)
+- name: mina-sdk-js
+  ecosystem: github
+  repository: https://github.com/o1-labs/mina-sdk-js
+  official: true
+  kind: sdk
+  language: TypeScript
+  description: TypeScript/JavaScript SDK for the Mina Node GraphQL API.
+- name: mina-sdk-go
+  ecosystem: github
+  repository: https://github.com/o1-labs/mina-sdk-go
+  official: true
+  kind: sdk
+  language: Go
+  description: Go SDK for interacting with Mina Protocol nodes via GraphQL.
+- name: mina-sdk-python
+  ecosystem: github
+  repository: https://github.com/o1-labs/mina-sdk-python
+  official: true
+  kind: sdk
+  language: Python
+  description: Python SDK for interacting with Mina Protocol nodes via GraphQL.
+- name: mina-sdk-rust
+  ecosystem: github
+  repository: https://github.com/o1-labs/mina-sdk-rust
+  official: true
+  kind: sdk
+  language: Rust
+  description: Rust SDK for interacting with Mina Protocol nodes via GraphQL.
+- name: mina-archive-sdk-js
+  ecosystem: github
+  repository: https://github.com/o1-labs/mina-archive-sdk-js
+  official: true
+  kind: sdk
+  language: TypeScript
+  description: TypeScript/JavaScript SDK for the Mina Archive Node GraphQL API.
+- name: mina-rosetta-sdk-js
+  ecosystem: github
+  repository: https://github.com/o1-labs/mina-rosetta-sdk-js
+  official: true
+  kind: sdk
+  language: TypeScript
+  description: TypeScript SDK for the Mina Rosetta (Coinbase Mesh) endpoint.
+notes: PyPI (mina-sdk-python), crates.io (mina-*-sdk-rust) and pkg.go.dev (mina-sdk-go) all returned 404 at probe time; those SDKs are distributed as source from the o1-labs GitHub org.

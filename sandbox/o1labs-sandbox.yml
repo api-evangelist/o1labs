@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.minaprotocol.com/zkapps (Lightnet + Devnet testing docs)
+company: o1labs
+sandbox:
+  summary: o1Labs provides two published testing surfaces for zkApp development — a local Lightnet blockchain and the public Devnet test network with a Faucet.
+  environments:
+  - name: Lightnet
+    kind: local-network
+    description: A lightweight local Mina blockchain run on your machine for fast zkApp testing before deploying to a live network.
+    tooling: zk lightnet (zkApp CLI)
+    docs: https://docs.minaprotocol.com/zkapps/writing-a-zkapp/introduction-to-zkapps/testing-zkapps-lightnet
+    explorer: zk lightnet explorer
+  - name: Devnet
+    kind: public-testnet
+    description: Public Mina test network for deploying and testing zkApps with valueless test funds obtained from the Faucet.
+    faucet: true
+    docs: https://docs.minaprotocol.com/zkapps/writing-a-zkapp/introduction-to-zkapps/how-to-deploy-a-zkapp
+  notes: Test funds are requested from the Devnet Faucet; no secret test keys or test card values are published (this is a blockchain, not a payments API).

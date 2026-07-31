@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: derived
+source: o1js CHANGELOG.md (keepachangelog) + npm dist-tags
+company: o1labs
+subject: o1js
+versioning:
+  scheme: semver
+  current_version: 2.15.0
+  changelog: https://github.com/o1-labs/o1js/blob/main/CHANGELOG.md
+  changelog_format: keepachangelog
+deprecation:
+  policy_url: null
+  practice: Deprecations are announced in the o1js CHANGELOG "Deprecated" sections ahead of removal; no separate written deprecation-policy or Sunset/Deprecation HTTP header policy was found.
+network_upgrades:
+  note: Protocol-level lifecycle is governed by Mina Protocol hard forks (Berkeley, Mesa); see https://docs.minaprotocol.com/network-upgrades
+status_page: null
+sla: null
